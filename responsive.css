@@ -32,6 +32,9 @@
 
 @media screen and (max-width: 660px) {
   /*Navbar*/
+  .navbar-wrapper {
+    border-bottom: 1px solid black;
+  }
   .navbar .links {
     display: block;
   }
