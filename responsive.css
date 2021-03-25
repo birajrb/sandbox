@@ -1,0 +1,139 @@
+@media screen and (max-width: 765px) {
+  /*Navbar*/
+
+  .navbar-wrapper {
+    display: block;
+  }
+  .navbar .links {
+    text-align: left;
+    padding: 0;
+  }
+
+  .navbar .links li {
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  /*Our Expertise*/
+  .expertise {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .expertise-wrapper {
+    text-align: left;
+  }
+  .expertise-header {
+    text-align: left;
+    padding: 20px 10px;
+    padding-left: 60px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  /*Navbar*/
+  .navbar .links {
+    display: block;
+  }
+
+  /*Homepage*/
+
+  .description-wrapper {
+    text-align: left;
+    margin: 0;
+    padding-left: 51px;
+  }
+
+  .description h3 {
+    position: relative;
+    left: 5px;
+  }
+
+  .description {
+    padding: 0 17px 17px 0px;
+  }
+
+  /*Our Expertise*/
+  .expertise-wrapper {
+    margin: 0;
+    padding-left: 51px;
+  }
+
+  .expertise-header {
+    padding-left: 0px;
+  }
+
+  .expertise {
+    position: absolute;
+    left: -8px;
+  }
+
+  /*About Us*/
+
+  .about-header {
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  /*Contact Us */
+  .contact-wrapper {
+    margin: 0;
+  }
+
+  .contact-header {
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .company-name {
+    text-align: left;
+    font-size: 1.4em;
+  }
+  .icon-wrapper {
+    text-align: left;
+  }
+
+  .contact i {
+    text-align: left;
+  }
+
+  .location-name {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .work-items {
+    min-width: 250px;
+  }
+
+  work-items h3,
+  p {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  /*Homepage*/
+
+  .description-wrapper {
+    padding-top: 0px;
+  }
+
+  .description h3 {
+    font-size: 25px;
+  }
+
+  .description h1 {
+    font-size: 2.5em;
+  }
+
+  .description h2 {
+    font-size: 25px;
+  }
+
+  .description h4 {
+    font-size: 15px;
+  }
+}
